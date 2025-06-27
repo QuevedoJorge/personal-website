@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jorge Quevedo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/input.css">
+    <link rel="stylesheet" href="./src/css/output.css">
+    <link rel="icon" href="./src/img/icon.png" type="image/x-icon">
+
+  </head>
+
+  <body>
+    <!-- Hero -->
+    <section class="relative flex w-full xl:flex-row">
+      <div class="heading-bg w-full h-[30rem] xl:h-[30rem] max-w-full xs:h-[23rem]"></div>
+      <div class="container mx-auto flex flex-col md:flex-row xl:flex-row items-center justify-center gap-7 sm:h-[30rem] xs:p-5 md:h-[23rem] xl:h-[30rem]">
+        <div class="text-center xl:text-left md:text-left">
+          <h1 class="neon text-white text-6xl md:text-6xl lg:text-7xl xl:text-7xl">WEB DEVELOPER</h1>
+          <p class="text-[var(--white)] text-lg xl:text-2xl lg:text-2xl">
+            I am Jorge -
+            <span class="font-semibold text-[var(--yellow)]">web developer practicing</span><br/>
+            with a huge passion code beautiful<br/>
+            responsive websites
+          </p>
+        </div>
+        <img src="./src/img/profile_picture.jpg" alt="profile_picture" class="rounded-lg w-24 xl:w-1/5 h-auto md:w-1/5"/>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="container mx-auto flex flex-col items-center mb-5">
+      <h2 class="text-5xl text-white font-bold mt-5">My Skills</h2>
+
+      <div class="grid grid-cols-1 xl:grid-cols-2 md:grid-cols-2 xs:gap-8 xl:gap-15 place-items-center my-7 md:w-9/10">
+
+        <!-- Skill Card 1 -->
+        <div class="card flex xl:w-lg xl:h-36 gap-5 bg-[var(--white)] rounded-tl-4xl rounded-br-4xl xs:w-auto xs:h-40">
+          <svg class="icon xl:icon" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+            <path d="M46.25,0H2.875H0v8v32h20v8h20v-8h8V8V0H46.25z M36,3c1.104,0,2,0.896,2,2s-0.896,2-2,2s-2-0.896-2-2 S34.896,3,36,3z M6,3h24c1.104,0,2,0.896,2,2s-0.896,2-2,2H6C4.896,7,4,6.104,4,5S4.896,3,6,3z M30,46.594c-1.104,0-2-0.896-2-2 s0.896-2,2-2s2,0.896,2,2S31.104,46.594,30,46.594z M36,40.969H24V40v-4V18.083h12V36v4V40.969z M44,36h-4V14.083H20V36H4V10h40V36z M42,7c-1.104,0-2-0.896-2-2s0.896-2,2-2s2,0.896,2,2S43.104,7,42,7z" fill="currentColor" />
+          </svg>
+          <div class="flex flex-col justify-center text-[var(--black)]">
+            <h3 class="text-2xl font-bold mb-1">Responsive Designs</h3>
+            <p>I build simple, responsive layouts using HTML and CSS.</p>
+          </div>
+        </div>
+
+        <!-- Skill Card 2 -->
+        <div class="card flex xl:w-lg xl:h-36 gap-5 bg-[var(--white)] rounded-tl-4xl rounded-br-4xl xs:w-auto xs:h-40">
+          <svg class="icon xl:icon" fill="#222831" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" stroke="#222831">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.036c-2.667 0-4.333 1.325-5 3.976 1-1.325 2.167-1.822 3.5-1.491.761.189 1.305.738 1.906 1.345C13.387 10.855 14.522 12 17 12c2.667 0 4.333-1.325 5-3.976-1 1.325-2.166 1.822-3.5 1.491-.761-.189-1.305-.738-1.907-1.345-.98-.99-2.114-2.134-4.593-2.134zM7 12c-2.667 0-4.333 1.325-5 3.976 1-1.326 2.167-1.822 3.5-1.491.761.189 1.305.738 1.907 1.345.98.989 2.115 2.134 4.594 2.134 2.667 0 4.333-1.325 5-3.976-1 1.325-2.167 1.822-3.5 1.491-.761-.189-1.305-.738-1.906-1.345C10.613 13.145 9.478 12 7 12z" />
+          </svg>
+          <div class="flex flex-col justify-center text-[var(--black)]">
+            <h3 class="text-2xl font-bold mb-1">Tailwind & Bootstrap</h3>
+            <p>I use Tailwind and Bootstrap to style fast and responsively.</p>
+          </div>
+        </div>
+
+        <!-- Skill Card 3 -->
+        <div class="card flex xl:w-lg xl:h-36 gap-5 bg-[var(--white)] rounded-tl-4xl rounded-br-4xl xl:col-span-2 md:col-span-2 xs:w-auto xs:h-40 md:w-96">
+          <svg class="icon xl:icon" fill="#222831" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 256 170" xml:space="preserve" stroke="#222831">
+            <path d="M127.7,34.7c0,17.9-14.5,32.4-32.4,32.4C77.5,67,63,52.5,63,34.7C63,16.8,77.5,2.3,95.3,2.3c2.1,0,4.3,0.2,6.3,0.6L94,19.2 
+            c-0.3,0-0.6,0-1,0c-7.6,0-13.8,6.2-13.8,13.8c0,7.6,6.2,13.8,13.8,13.8c7.6,0,13.8-6.2,13.8-13.8c0-3.7-1.5-7.1-3.9-9.6l8-17.1 
+            C120.9,11.8,127.7,22.4,127.7,34.7z M254,147.9h-23.3c4.9-1.4,9.1-4.6,12-8.9c4-6.2,4.6-13.8,1.6-20.5l-24.8-55.5l-11.3-4.3 
+            l15.2-52.1l-14.9-4.3l-32.2,110.6l14.9,4.3l13.5-46.3l5.4,2l22.7,50.7c1.3,2.8,1,5.9-0.7,8.5c-1.7,2.6-4.4,4.1-7.5,4.1H191v11.8 
+            h-31.5c-0.3-11.1-9-19.7-19.7-19.7H96.5c0,0-19.2-50.5-19.6-51.3c-4-10.5-12.9-18.1-24.4-18.1c-14.7,0-25.9,12.2-33.9,29.8 
+            C7.9,112.2,2.1,140.4,2,167.8l252-0.1V147.9z"/>
+          </svg>
+          <div class="flex flex-col justify-center text-[var(--black)]">
+            <h3 class="text-2xl font-bold mb-1">Student Developer</h3>
+            <p>I'm learning frontend basics and improving through small projects.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Get In Touch -->
+    <section class="flex justify-center bg-[var(--black)] py-10">
+      <div class="container bg-[var(--yellow)] text-center xl:w-1/2 xs:w-full md:w-3/4 lg:w-1/2 xs:mx-6 xs:p-3 rounded-4xl py-3" style="box-shadow: 7px 7px 0 #af9048;">
+        <h2 class="text-5xl font-extrabold text-[var(--black)] mb-2">Get In Touch</h2>
+        <p class="text-[var(--black)] text-lg font-semibold mb-0.5">
+          Let's build something great together.
+        </p>
+        <p class="text-[var(--black)] mb-3">
+          Whether you have a question, a project idea, or just want to connect — feel free to reach out.<br>
+          I'm currently open to internships, collaborations, or learning opportunities.
+        </p>
+        <a href="mailto:jorgequeve.job@gmail.com"><button class="bg-slate-800 hover:bg-slate-700 focus:bg-slate-700 active:bg-slate-700 text-[var(--white)] text-lg font-semibold px-4 py-2 rounded-md shadow-md hover:shadow-lg focus:shadow-none active:shadow-none transition-all cursor-pointer">
+          CONTACT ME
+        </button>
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section>
+      <footer class="bg-[var(--black-darker)] text-[var(--white)] text-center xl:py-5 xs:py-3">
+        <div class="flex justify-center gap-5">
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/jorge.queve/" target="_blank">
+            <svg width="30px" height="70px" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#000000#EEEEEE">
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" fill="#EEEEEE"></path>
+                <path d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z" fill="#EEEEEE"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z" fill="#EEEEEE"></path>
+              </g>
+            </svg>
+          </a>
+          <!-- GitHub -->
+          <a href="https://github.com/QuevedoJorge" target="_blank">
+            <svg width="30px" height="70px" viewbox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000">
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+              <g id="SVGRepo_iconCarrier">
+                <title>github [#EEEEEE]</title>
+                <desc>Created with Sketch.</desc>
+                <defs></defs>
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -7559.000000)" fill="#EEEEEE">
+                    <g id="icons" transform="translate(56.000000, 160.000000)">
+                      <path d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399" id="github-[#EEEEEE]"></path>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </a>
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/jorge-luis-quevedo-yucra-3a8100150/" target="_blank">
+            <svg width="30px" height="70px" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path d="M6.5 8C7.32843 8 8 7.32843 8 6.5C8 5.67157 7.32843 5 6.5 5C5.67157 5 5 5.67157 5 6.5C5 7.32843 5.67157 8 6.5 8Z" fill="#FFFFFF"></path>
+                <path d="M5 10C5 9.44772 5.44772 9 6 9H7C7.55228 9 8 9.44771 8 10V18C8 18.5523 7.55228 19 7 19H6C5.44772 19 5 18.5523 5 18V10Z" fill="#FFFFFF"></path>
+                <path d="M11 19H12C12.5523 19 13 18.5523 13 18V13.5C13 12 16 11 16 13V18.0004C16 18.5527 16.4477 19 17 19H18C18.5523 19 19 18.5523 19 18V12C19 10 17.5 9 15.5 9C13.5 9 13 10.5 13 10.5V10C13 9.44771 12.5523 9 12 9H11C10.4477 9 10 9.44772 10 10V18C10 18.5523 10.4477 19 11 19Z" fill="#FFFFFF"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z" fill="#FFFFFF"></path>
+              </g>
+            </svg>
+          </a>
+        </div>
+        <p class="mt-4 xs:mt-1">@2025 Jorge Quevedo</p>
+      </footer>
+    </section>
+  </body>
+
+</html>
