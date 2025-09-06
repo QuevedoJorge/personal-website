@@ -33,7 +33,7 @@ p, button {
     font-family: "Roboto", sans-serif;
 }
 .heading-bg {
-  background-image: url(../);
+  background-image: url(./img/heading-bg.jpeg);
   background-size: cover;
   background-position: center;
   filter: brightness(0.4);
