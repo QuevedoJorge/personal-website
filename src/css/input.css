@@ -13,27 +13,29 @@
 :root {
   --black: #222831;
   --black-darker: #1b2028;
-  --gray: #393E46;
-  --yellow: #FFD369;
-  --light-white: #F4F4F4;
-  --white: #EEEEEE;
+  --gray: #393e46;
+  --yellow: #ffd369;
+  --light-white: #f4f4f4;
+  --white: #eeeeee;
 }
-
 
 body {
   padding: 0;
   margin: 0;
   background-color: var(--gray);
 }
-h1, h2, h3 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
-p, button {
-    font-family: "Roboto", sans-serif;
+p,
+button {
+  font-family: "Roboto", sans-serif;
 }
 .heading-bg {
-  background-image: url(../);
+  background-image: url("./img/heading-bg.jpeg");
   background-size: cover;
   background-position: center;
   filter: brightness(0.4);
@@ -43,7 +45,8 @@ p, button {
   z-index: -1;
 }
 .neon {
-  text-shadow: 0 0 15px rgb(168, 168, 168), 0 0 60px rgb(133, 133, 133), 0 0 100px rgb(122, 122, 122);
+  text-shadow: 0 0 15px rgb(168, 168, 168), 0 0 60px rgb(133, 133, 133),
+    0 0 100px rgb(122, 122, 122);
 }
 .card {
   padding: 1.5rem;
